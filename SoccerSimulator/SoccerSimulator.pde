@@ -5,9 +5,9 @@ float SCALE = 300f;
 void settings(){
   controller = new GameController(new Match(
     // Team A Class
-    InterLitrao.class,
+    CustomTeamA.class,
     // Team B Class
-    ChapeuPalha.class,
+    CustomTeamB.class,
     // Number of robots on each side
     2
   ));
